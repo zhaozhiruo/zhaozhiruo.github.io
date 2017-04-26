@@ -1,31 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>{{site.title}}</title>
+---
+layout: default
+---
 
-    {% include global-css.html %}
+{% include site-header.html %}
 
-    <link href="{{site.url}}{{site.baseurl}}/css/categories.css" rel='stylesheet' type='text/css'/>
+<main class="main  container">
 
-</head>
-<body>
+	<div class="content  content--aside-left">
 
-    <div id="wrapper" >
+		<article class="article  article--page typeset">
 
-         {% include navbar.html %}
-         {% include categories.html %}
-         {% include footer.html %}
+	    <h1>{{ page.title }}</h1>
 
-    </div>
+			{{ content }}
 
+		</article>
 
+		{% include post-categories.html %}
 
-    {% include global-js.html %}
+	</div>
 
-    <script src="{{site.url}}{{site.baseurl}}/js/sidebar.js"></script>
+	{% include site-aside.html %}
 
-</body>
-</html>
+</main>
 
+{% include site-footer.html %}
