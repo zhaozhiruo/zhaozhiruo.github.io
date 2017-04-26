@@ -1,36 +1,37 @@
-# Project Gaia
-
-
+---
+layout: post
+title: Jekyll Theme - Project Gaia
+category : Intro
+tags : [intro, tag1, tag2]
+stickie: true
+---
 ## Updated History
 
 - April 3nd, 2017
 Added new font
->It's really cool!
 
 - Mar 5th, 2017
-Style updated
+Updated style
 
 - Mar 1st, 2017
-TOC plugin updated
+Updated TOC plugin
 
 - Feb 28th, 2017
 Rebuild to include **Bootstrap 4-Alpha** and **JQuery 3**
 
 ## Desc
 
-![](    demo/1.jpg  )
-![](    demo/2.jpg  )
-![](    demo/3.jpg  )
-![](    demo/4.jpg  )
+This is a personal blog source code.
 
+The theme name is 'Project Gaia', cuz I have another under building project named 'Project Uranus' o(*￣▽￣*)o 
 
-## Demo
+repo link: [szhielelp/JekyllTheme-ProjectGaia](https://github.com/szhielelp/JekyllTheme-ProjectGaia)
 
-See demo page here: [    Demo Page   ](https://szhielelp.github.io/JekyllTheme-ProjectGaia/)
+## Post Example
 
-See extended blog here: [    Blog Page   ](http://szhshp.org/)
+Here is a post example
 
-See chinese guide post here: [   中文指导    ](http://szhshp.org/tech/2017/01/09/projectgaia.html)
+[Please check the code in Markdown]
 
 ## Plugins
 
@@ -46,13 +47,21 @@ Usage(include necessary CSS and JS and run **SyntaxHighlighter.all()**):
 
 Here is code snippet example:
 
-![](    demo/X3.png )
+<pre class="brush: html">
+    [please check the post markdown here]
+    <ul>
+      <li class="headerlink">
+        <a class="content active">List</a>
+        <a class="link inactived">Link</a>
+      </li>
+    </ul>
+</pre>
 
 ### Table of Content
 
 Realized with this repo: [    jgallen23/toc  ](https://github.com/jgallen23/toc)
 
-![](   demo/X2.png   )
+![](   https://szhielelp.github.io/JekyllTheme-ProjectGaia/demo/X2.png   )
 
 Auto-run when page loaded.
 
@@ -63,7 +72,7 @@ Realized with this repo: [    szhielelp/md-post-header-collapse  ](https://githu
 Run **$.headerCollapseRobot()** after post loaded.
 
 <pre class="brush: js">
-    /*header collapsible*/
+    /*header collapsible example*/
     $.headerCollapseRobot(
       arr_Id_CollapseEnds =  new Array("end"),                       
       arr_Collapsible_Tag = new Array("H1","H2","H3"),                       
@@ -72,7 +81,7 @@ Run **$.headerCollapseRobot()** after post loaded.
     )
 </pre>
 
-![](   demo/X1.png   )
+![](   https://szhielelp.github.io/JekyllTheme-ProjectGaia/demo/X1.png   )
 
 You can try clicking on the icons near titles.
 
@@ -89,10 +98,3 @@ stickie: true
 </pre>
 
 Then current post will show ahead of other posts.
-
-
-## Extra 
-
-I would be happy if you wanna exchange the blog link with me.
-
-Just feel free to leave a msg with ur link in comments box from   [     http://szhshp.org  ](http://szhshp.org) or [   https://szhielelp.github.io/JekyllTheme-ProjectGaia/    ](https://szhielelp.github.io/JekyllTheme-ProjectGaia/)

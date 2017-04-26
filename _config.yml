@@ -1,39 +1,33 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Zhiruo Zhao's Blog
-email: zhaozhiruo@gmail.com
+title: Project-Gaia
+email:
 description: > # this means to ignore newlines until "baseurl:"
-  None
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://zhaozhiruo.github.io/" # the base hostname & protocol for your site
-twitter_username: 
-github_username:  zhaozhiruo
-facebook_username:  zhaozhiruo
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
 
-# Gems
-gems: 
-- jekyll-archives
-- jekyll-paginate
+# User setting
+owner:
+email:
+facebook_username:
+twitter_username:
+github_username:
+address:
+  - line:
+  - line:
+  # Feel free to add more lines here 
+telephone:
+copyright:
 
-# Config
-paginate: 5
-paginate_path: "page/:num"
+# API settings
+google_api_key:
+
 # Build settings
-markdown: kramdown
+gems: [jekyll-paginate]
 
-# Archive
-jekyll-archives:
-  enabled: []
-  layout: 'archive'
-  permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
-    tag: '/tag/:name/'
-    category: '/category/:name/'
+markdown: kramdown
+# toc_levels: 1..2
+
