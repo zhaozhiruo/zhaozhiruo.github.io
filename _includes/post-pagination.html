@@ -1,17 +1,10 @@
-<nav class="nav  nav--paginator">
-
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="pagination  pagination--previous">&larr; Previous</a>
-  {% else %}
-    <span class="pagination  pagination--previous">&larr; Previous</span>
+{% if page.previous or page.next %}
+<div class="post-pagination">
+  {% if page.previous %}
+  <a href="{{ page.previous.url }}" class="btn-pagination prev" title="{{ page.previous.title | markdownify | strip_html }}"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Prev</a>
   {% endif %}
-
-  <span class="pagination  pagination--counter">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="pagination  pagination--next">Next &rarr;</a>
-  {% else %}
-    <span class="pagination  pagination--next">Next &rarr;</span>
+  {% if page.next %}
+  <a href="{{ page.next.url }}" class="btn-pagination next" title="{{ page.next.title | markdownify | strip_html }}">Next <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
   {% endif %}
-
-</nav>
+</div>
+{% endif %}
