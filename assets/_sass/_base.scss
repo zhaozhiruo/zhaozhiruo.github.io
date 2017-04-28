@@ -124,7 +124,7 @@ blockquote {
     font-weight: bold;
     border-left: 0.3em solid $blue;
     padding: $spacing-unit / 2;
-    background-color: lighten($light-blue,90%);
+    background-color: lighten($light-blue,5%);
     li {
         color: $blue;
         margin-bottom: 0.5em;
