@@ -2,7 +2,7 @@ window.onload = function () {
     var bearPaw = Snap("#bear-paw");
 	if (bearPaw) {
 		var rotatePaw = function () {
-			Snap.animate(-20, 20, function (val) {
+			Snap.animate(-200, 20, function (val) {
 				bearPaw.transform("r" + [val, 340, 400]);
 			}, 2500);
 			setTimeout(function(){
