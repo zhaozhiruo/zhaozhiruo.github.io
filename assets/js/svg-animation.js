@@ -18,7 +18,7 @@ window.onload = function () {
 	if (sun) {
 		var rotateSun = function () {
 			Snap.animate(0, 360, function (val) {
-				sun.transform("r" + [val, 1400, 230]);
+				sun.transform("g" + [val, 1400, 230]);
 			}, 2500);
 		};
 		rotateSun();
