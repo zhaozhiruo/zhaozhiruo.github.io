@@ -14,7 +14,7 @@ window.onload = function () {
 		rotatePaw();
 		setInterval(rotatePaw,5000);
 	}
-    var sun = Snap("#sun");
+    var sun = Snap("#cloud");
 	if (sun) {
 		var rotateSun = function () {
 			Snap.animate(0, 360, function (val) {
